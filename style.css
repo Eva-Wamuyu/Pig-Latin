@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.h1{
+  text-align: center;
+  color: rgb(255, 123, 0);
+}
+.span{
+  color: #800020;
+}
+.body{
+  background-image: url("./Assets/Pig-latin-new.jpg");
+
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.textarea{
+  resize: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  margin-top: 12px;
+}
+.button{
+  width: 72px;
+  padding: 6px;
+  margin: auto;
+  margin-top: 12px;
+}
+.output{
+  display: block;
+  height: 50vh;
+  width: 50%;
+  margin: auto;
+  margin-top: 48px;
+  background-color: blue;
+  text-align: center;
+  font-size: 36px;
+}
+.footer{
+  text-align: center;
+}

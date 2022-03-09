@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Pig Latin</title>
+</head>
+<body class="body">
+  <header>
+   <h1 class="h1">
+    Pig <span class="span"> Latin</span>
+   </h1>
+   <p>
+     The modern version of Pig Latin
+     appears in a 1919 Columbia Records album containing 
+     what sounds like the modern variation, by a singer 
+     named Arthur Fields. The song, called Pig Latin Love
+     ed by the subtitle "I-Yay Ove-Lay ou-yay earie-day".
+   
+
+   </p>
+   <p>
+    <a href="https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html">Read more here</a>
+   </p>
+  </header>
+ 
+
+  <form class="form">
+    <label for="translate">Words to be translated:</label>
+    <textarea class="textarea" name="input" id="words" cols="15" rows="15" placeholder="Words to Translate"></textarea>
+    <input type="submit"class="button" id="button" value="Translate">
+  </form>
+
+  <div class="output">
+    <p id="output">
+           
+    </p>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <small>
+      Thank you Arthur Fields!
+      </small>
+    </footer>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="./scripty.js"></script>
+</body>
+</html>
